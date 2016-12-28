@@ -1,0 +1,322 @@
+body{
+	padding-bottom: 0 !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Open Sans", Sans-serif;
+}
+.adn-separador-texto-50{
+	height: 0px;
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 1px solid #d6d6d6;
+}
+.btn-primary{
+	background-color: #F16722 !important;
+	border-color: #F16722 !important;
+}
+.btn-primary:hover{
+	background-color: #F27951 !important;
+	border-color: #F27951 !important;
+}
+
+.adn-separador-texto-100{
+	height: 0px;
+	width: 100%;
+	margin: 20px 0;
+	border-bottom: 1px solid #d6d6d6;
+}
+.adn-separador-texto-80{
+	height: 0px;
+	width: 80%;
+	margin-left: 10%;
+	border-bottom: 1px solid #d6d6d6;
+}
+a.adn-no-decoration{
+	text-decoration: none;
+	color: #5A5A5A;
+}
+/*
+	BACK TOP
+*/
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 9999;
+    width: 52px;
+    font-size: 20px;
+    height: 52px;
+    text-align: center;
+    line-height: 50px;
+    background: #EF4623;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #F27951;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+/*
+	FIN BACK TOP
+*/
+
+/*
+	NAV
+	todo navbar aquí
+*/
+.adn-navbar{
+	height: 70px;
+	margin-bottom: 0px !important;
+	background-color: white !important;	
+}
+.adn-nav-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.adn-nav-title:hover{
+
+}
+.adn-nav li a:hover{
+	color: #F27951 !important;
+
+}
+.adn-nav{
+	height: 70px !important;
+	padding: 10px 0 0 0 !important;
+}
+.adn-logo{
+	padding: 10px 0 10px 0;
+	height: 70px;
+}
+/*
+	FIN NAV
+*/
+
+/*
+	SERVICIOS
+	todo servicios aquí
+*/
+.adn-servicios-titulo{
+	margin-bottom: 30px !important;
+}
+#servicios{
+	padding-top: 0px;
+}
+.img-servicios-container:hover{
+	cursor: pointer;
+}
+.hidde{
+	display: none;
+}
+.img-servicios-container p{
+	min-height: 250px;
+}
+/*
+	FIN SERVICIOS
+*/
+
+/*
+	SEPARADOR
+*/
+.adn-separador-container{
+	margin-top: 60px;
+}
+.adn-separador-img{
+	margin-top: 20px !important;
+	-webkit-box-shadow: 20px 19px 51px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 20px 19px 51px -17px rgba(0,0,0,0.75);
+	box-shadow: 20px 19px 51px -17px rgba(0,0,0,0.75);
+}
+.adn-separador{
+	margin-top: 50px;
+	min-height: 300px;
+	width: 100%;
+	background: rgba(207,158,110,1);
+	background: -moz-linear-gradient(-45deg, rgba(207,158,110,1) 0%, rgba(184,113,77,1) 60%, rgba(179,84,69,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(207,158,110,1)), color-stop(60%, rgba(184,113,77,1)), color-stop(100%, rgba(179,84,69,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(207,158,110,1) 0%, rgba(184,113,77,1) 60%, rgba(179,84,69,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(207,158,110,1) 0%, rgba(184,113,77,1) 60%, rgba(179,84,69,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(207,158,110,1) 0%, rgba(184,113,77,1) 60%, rgba(179,84,69,1) 100%);
+	background: linear-gradient(135deg, rgba(207,158,110,1) 0%, rgba(184,113,77,1) 60%, rgba(179,84,69,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf9e6e', endColorstr='#b35445', GradientType=1 );
+}
+
+.adn-separador-titulo{
+	color:white;
+	font-weight: 700;
+}
+/*
+	FIN SEPARADOR
+*/
+
+/*
+	PERSONAS
+*/
+.adn-personas-container{
+	margin-top: 20px;
+}
+.adn-persona-imagen{
+	opacity: 0.7;
+	margin-top: 30px;
+}
+#personas{
+	margin-bottom: 110px !important;
+}
+/*
+	FIN PERSONAS
+*/
+
+/*
+	EMPRESAS
+*/
+.adn-empresas-container{
+	margin-top: 20px;
+}
+.adn-90{
+	margin-top: 30px;	
+}
+.adn-empresastexto{
+	margin-top: 20px;
+}
+img.adn-2uf{
+	margin-top: 30px !important; 
+	height: 250px;
+}
+.adn-empresas-img{
+	min-height: 459px;
+	border-right: 2px dotted #F7931E;
+}
+.adn-empresas-subtitulo{
+	font-weight: 700;
+}
+.adn-empresas-subtitulo ul li {
+	font-weight: 200;
+}
+/*
+	FIN EMPRESAS
+*/
+
+/*
+	CREA TU EMPRESA
+*/
+.adn-tuEmpresa-container{
+	margin-top: 20px;
+}
+.adn-tuEmpresa-detalle-listado{
+	margin-top: 20px;
+}
+.adn-tuEmpresa-icons{
+	font-size: 30px;
+	margin: auto;
+}
+.adn-tuEmpresa-divider{
+	border-right: 1px solid #d6d6d6;
+}
+#list2 ol li p { padding:8px; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
+.btn-adn{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 15px 40px !important;
+
+}
+/*
+	FIN CREA TU EMPRESA
+*/
+
+/*
+	NOSOTROS
+*/
+.adn-equipo-elemento{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 15px;
+	border: 2px solid #f2f2f2;
+	min-height: 400px !important;
+}
+.adn-equipo-img{
+	height: 150px;
+	border: 6px solid #f4f2f2;
+	margin-top: 20px;
+	display: inline-block !important;
+}
+.adn-equipo-nombre{
+	margin-top: 2px !important;
+}
+.adn-equipo-elemento p{
+	padding: 0 15px;
+}
+.adn-nuestro-equipo{
+	margin-bottom: 30px;
+}
+.adn-equipo-redes-logo{
+	height: 40px !important;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	opacity: 0.4;
+}
+.adn-equipo-redes-logo:hover{
+	opacity: 1;
+}
+.equipo{
+	margin-bottom: 30px;
+}
+.adn-nosotros-divider{
+	border-right: 1px solid #d6d6d6;
+	min-height: 350px !important; 
+}
+.nosotros-detalle-dir{
+	padding-bottom: 40px;
+}
+/*
+	FIN NOSTROS
+*/
+
+/*
+	PIE DE PAGINA
+*/
+.adn-pie{
+	width: 100%;
+	min-height: 150px;
+	background-color: #c77c36;
+}
+.adn-pie small{
+	color: white !important;
+}
+.adn-pie .adn-separador-texto-100{
+	color: white !important;
+	margin: 0 !important;
+}
+.adn-pie p{
+	color: white !important;
+	font-size: 12px;
+}
+.adn-pie-container{
+	margin-top: 20px;
+}
+/*
+	FIN PIE DE PAGINA
+*/
+
+/*
+	CONTACTO
+*/
+.adn-contacto{
+	margin-top: 40px;
+	width: 100%;
+}
+/*
+	FIN CONTACTO
+*/
